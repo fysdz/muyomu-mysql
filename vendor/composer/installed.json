@@ -1,0 +1,36 @@
+{
+    "packages": [
+        {
+            "name": "muyomu/boot-starter-system-engine",
+            "version": "v1.0.6",
+            "version_normalized": "1.0.6.0",
+            "source": {
+                "type": "git",
+                "url": "https://gitee.com/fysdz/boot-starter-system-engine.git",
+                "reference": "cf20ae6699b6b5aa6399aeb92a9258a37eb53cb6"
+            },
+            "time": "2022-05-06T11:13:22+00:00",
+            "type": "library",
+            "installation-source": "source",
+            "autoload": {
+                "psr-4": {
+                    "boot\\starter\\system\\engine\\": "src/boot/starter/system/engine"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "mutian",
+                    "email": "bhfqlz@qq.com"
+                }
+            ],
+            "description": "The di engine for muyomu-boot web framework.",
+            "install-path": "../muyomu/boot-starter-system-engine"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

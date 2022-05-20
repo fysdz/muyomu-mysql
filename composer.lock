@@ -1,0 +1,46 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "d408af95ec6301004d22587cd1b78d5c",
+    "packages": [
+        {
+            "name": "muyomu/boot-starter-system-engine",
+            "version": "v1.0.6",
+            "source": {
+                "type": "git",
+                "url": "https://gitee.com/fysdz/boot-starter-system-engine.git",
+                "reference": "cf20ae6699b6b5aa6399aeb92a9258a37eb53cb6"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "boot\\starter\\system\\engine\\": "src/boot/starter/system/engine"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "mutian",
+                    "email": "bhfqlz@qq.com"
+                }
+            ],
+            "description": "The di engine for muyomu-boot web framework.",
+            "time": "2022-05-06T11:13:22+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.2.0"
+}
